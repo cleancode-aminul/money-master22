@@ -1,0 +1,70 @@
+/* Custom CSS for styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+
+.container {
+    margin-top: 20px;
+}
+
+.money-image img,
+.mobile-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.bg-gray {
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.result {
+    margin-top: 20px;
+}
+
+
+
+@media only screen and (max-width: 393px) {
+   .money-image img{
+    width: 50px;
+    height: 10px;
+   }
+  }
+
+/* @media screen and (min-width:393px) {
+    .img{
+        width: 500px !important;
+         height: 250px;
+    }
+    .col-md-6{
+        margin: 20px;
+        padding: 0;
+    }
+} */
+
+
+
+
+
+
+/* Additional styling can be added as needed */

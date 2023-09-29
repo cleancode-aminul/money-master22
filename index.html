@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money Master</title>
+    <!-- Link to Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Link to custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="text-center p-4">Personal Account</h1>
+        <div class="row">
+
+            <!-- Left Side with Images -->
+            <div class="col-md-6">
+                <div class="money-image">
+                    <img src="images/222.jpg" class="img-fluid" style="width: 600px; height: 885px;" alt="Money Image">
+                </div>
+               
+            </div>
+            <!-- Right Side with Income and Expenses -->
+            <div class="col-md-6 bg-secondary rounded p-5 text-white " >
+               
+                <div class="section m-5 p-3">
+         <h4 class="text-center pb-2" >Income</h4>
+                    <div class="form-group">
+                        <label for="income">Income:</label>
+                        <input type="text"  class="form-control" id="income" placeholder="Enter amount">
+                    </div>
+                </div>
+                <div class="section m-5 p-3">
+                    <h5>Expenses</h5>
+                    <div class="form-group">
+                        <label for="food">Food:</label>
+                        <input type="text" class="form-control" id="food" placeholder="Enter food expense">
+                    </div>
+                    <div class="form-group">
+                        <label for="rent">Rent:</label>
+                        <input type="text" class="form-control" id="rent" placeholder="Enter rent expense">
+                    </div>
+                    <div class="form-group">
+                        <label for="clothes">Clothes:</label>
+                        <input type="text" class="form-control" id="clothes" placeholder="Enter clothes expense">
+                    </div>
+                    <button class="btn bg-success fw-bold" id="calculate">Calculate</button>
+                    <br><br>
+                    <div class="result">
+                        <p>Total Expenses: <span id="total-expenses" style="font-size: 20px; color:rgb(255, 255, 255); font-weight: 600;">$0</span></p>
+                        <p>Balance: <span id="balance"><span style="font-size: 20px; color:aliceblue; font-weight: 600;">$0</span> </span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to Bootstrap JS and Popper.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Link to custom JavaScript -->
+    <script src="js/app.js"></script>
+</body>
+</html>
